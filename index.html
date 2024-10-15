@@ -176,7 +176,7 @@
           </tr>
           <tr>
             <td></td><td>10/24/24</td><td>Max</td>
-            <td>Full Access: Inner Interpretability Methods</td>
+            <td>Interpretability I</td>
           </tr>
           <tr>
             <td><a href="#week6">Week 6</a></td><td>10/29/24</td><td>Jared Moore</td>
@@ -196,7 +196,7 @@
           </tr>
           <tr>
             <td><a href="#week8">Week 8</a></td><td>11/12/24</td><td>Max</td>
-            <td>Concept-Based Interpretability</td>
+            <td>Interpretability II</td>
           </tr>
           <tr>
             <!-- <td></td><td>11/14/24</td><td>Anka Reuel</td>
@@ -424,7 +424,7 @@
 
 
     <h3>Peer Review</h3>
-    <p>A tenth of the final grade will be determined by the quality of two peer reviews.</p>
+    <p>A twelfth of the final grade will be determined by the quality of two peer reviews.</p>
     <ul>
       <li>Each student will be assigned two final projects to review.</li>
       <li>The peer review should be one page long and submitted as a pdf. </li>
@@ -444,7 +444,7 @@
     <p>All classes have mandatory attendance.</p>
     <ul>
       <li>You can miss only two classes to get the full attendance grade of 5% and 0% otherwise.</li>
-      <li> Attendance is checked at the start of each lecture.</li>
+      <li>Attendance is checked at the start and end of each lecture.</li>
       <li>Office hours are not mandatory. </li>
       <li>The second lecture (Technical AI/Machine Learning Recap) is the only optional lecture that will also not be counted towards the attendance bonus. </li>
     </ul>
@@ -785,12 +785,15 @@
           </tr>
           <tr>
             <td></td><td>10/24/24</td><td>Max</td>
-            <td>Full Access: Inner Interpretability Methods</td>
+            <td>Interpretability I</td>
           </tr>
           <tr>
             <td></td><td colspan="3">
               Readings (Required)
               <ul>
+                <li><a href="https://openreview.net/forum?id=8C5zt-0Utdn" target="_blank">SoK: Toward Transparent AI: A Survey on Interpreting the Inner Structures of Deep Neural Networks</a> 
+                  - Rauker, Ho, Casper et al. 2023<br> SaTML publication<br>
+                Read the abstract and introduction</li>
                 <li><a href="https://distill.pub/2020/circuits/zoom-in/" target="_blank">Zoom In: An Introduction to Circuits</a> 
                   - Olah et al. 2020<br> Blog post </li>
                 <li><a href="https://arxiv.org/pdf/2202.05262.pdf" target="_blank">Locating and Editing Factual Associations in GPT</a> 
@@ -804,23 +807,31 @@
                   Read until “Motivation for this post” </li>
                 <li><a href="https://www.alignmentforum.org/posts/bWxNPMy5MhPnQTzKz/what-discovering-latent-knowledge-did-and-did-not-find-4" target="_blank">What Discovering Latent Knowledge Did and Did Not Find</a> 
                   - Roger 2023<br> Online forum post </li>
-                <li><a href="https://transformer-circuits.pub/2023/monosemantic-features" target="_blank">Towards Monosemanticity: Decomposing Language Models With Dictionary Learning</a> 
-                  - Bricken et al. 2023<br> Anthropic blog post <br> 
-                  Read until “Why not use architectural approaches” </li>
               </ul>
 
               Optional Readings (Not Required)
               <ul>
-                <li><a href="https://openreview.net/forum?id=ePUVetPKu6" target="_blank">Mechanistic Interpretability for AI Safety - A Review</a> 
-                  - Bereska and Gavves. 2024<br> TMLR publication<br></li>
-                <li><a href="https://openreview.net/forum?id=8C5zt-0Utdn" target="_blank">SoK: Toward Transparent AI: A Survey on Interpreting the Inner Structures of Deep Neural Networks</a> 
-                  - Rauker, Ho, Capser et al. 2023<br> TMLR publication<br></li>
                 <li><a href="https://arxiv.org/pdf/1401.4082.pdf" target="_blank">Stochastic Backpropagation and Approximate Inference in Deep Generative Models</a> 
                   - Rezende et al. 2014<br> ICML publication <br> 
                   Read the abstract and the introduction</li>
-                <li><a href="https://openreview.net/forum?id=9PnKduzf-FT" target="_blank">Characterizing the risk of fairwashing</a> 
-                  - Aivodji et al. 2021<br> NeurIPS publication <br> 
-                  Read the abstract and the introduction</li>
+                <li><a href="https://ieeexplore.ieee.org/document/8237336" target="_blank">Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization</a> 
+                  - Selvaraju et al. 2017<br> ICCV publication <br></li>
+                <li><a href="https://proceedings.neurips.cc/paper_files/paper/2018/file/3e9f0fc9b2f89e043bc6233994dfcf76-Paper.pdf" target="_blank">Towards robust interpretability with self-explaining neural networks</a> 
+                  - Melis and Jaakkola et al. 2018<br> NeurIPS publication <br></li>
+                <li><a href="https://openreview.net/forum?id=7uVcpu-gMD" target="_blank">Are neural nets modular? inspecting functional modularity through differentiable weight masks</a> 
+                  - Csordas et al. 2020<br> ICLR publication <br></li>
+                <li><a href="https://proceedings.neurips.cc/paper/2020/file/c74956ffb38ba48ed6ce977af6727275-Paper.pdf" target="_blank">Compositional explanations of neurons</a> 
+                  - Mu and Andreas. 2020<br> NeurIPS publication <br></li>
+                <li><a href="https://arxiv.org/abs/2010.12606" target="_blank">Exemplary natural images explain cnn activations better than state-of- the-art feature visualization</a> 
+                  - Borowski et al. 2020<br> ICLR publication <br></li>
+                <li><a href="https://arxiv.org/abs/2105.04857" target="_blank">Leveraging sparse linear layers for debuggable deep networks</a> 
+                  - Wong et al. 2021<br> ICML publication <br></li>
+                <li><a href="https://aclanthology.org/2022.acl-long.581/" target="_blank">Knowledge neurons in pretrained transformers</a> 
+                  - Dai et al. 2021<br> ACL publication <br></li>
+                <li><a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/ed3fea9033a80fea1376299fa7863f4a-Abstract-Conference.html" target="_blank">Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting</a> 
+                  - Turpin et al. 2023<br> NeurIPS publication <br></li>
+                <li><a href="https://arxiv.org/abs/2403.05030" target="_blank">Defending Against Unforeseen Failure Modes with Latent Adversarial Training</a> 
+                  - Casper et al. 2024<br>Preprint<br></li>
               </ul>
             </td>
           </tr>
@@ -832,13 +843,13 @@
             <td></td><td colspan="3">
               Readings (Required)
               <ul>
-                None
+                <li><a href="https://arxiv.org/abs/2408.16984" target="_blank">Beyond Preferences in AI Alignment</a> 
+                  - Zhi-Xuan et al. 2024<br> Preprint <br>
+                  Read the abstract and the introduction (until end of page 3)</li>
               </ul>
 
               Optional Readings (Not Required)
               <ul>
-                <li><a href="https://arxiv.org/abs/2408.16984" target="_blank">Beyond Preferences in AI Alignment</a> 
-                  - Zhi-Xuan et al. 2024<br> Preprint <br></li>
                 <li><a href="https://openreview.net/forum?id=gQpBnRHwxM" target="_blank">Position: A Roadmap to Pluralistic Alignment</a> 
                   - Soerensen et al. 2024<br> ICML Publication <br></li>
                 <li><a href="https://arxiv.org/abs/2407.02996" target="_blank">Are Large Language Models Consistent over Value-laden Questions?</a> 
@@ -903,7 +914,7 @@
           </tr>
           <tr>
             <td id="week8">Week 8</td><td>11/12/24</td><td>Max</td>
-            <td>Concept-Based Interpretability</td>
+            <td>Interpretability II</td>
           </tr>
           <tr>
             <td></td><td colspan="3">
@@ -912,20 +923,46 @@
                 <li><a href="https://dl.acm.org/doi/10.1145/3630106.3659037" target="_blank">Black-Box Access is Insufficient for Rigorous AI Audits</a> 
                   - Casper et al. 2024<br> FAccT publication <br> 
                   Read the abstract and the introduction</li>
+                <li><a href="https://openreview.net/forum?id=ePUVetPKu6" target="_blank">Mechanistic Interpretability for AI Safety - A Review</a> 
+                  - Bereska and Gavves. 2024<br> TMLR publication<br>
+                Read the abstract, introduction (section 1), and section 2 </li>
+                <li><a href="https://transformer-circuits.pub/2023/monosemantic-features" target="_blank">Towards Monosemanticity: Decomposing Language Models With Dictionary Learning</a> 
+                  - Bricken et al. 2023<br> Anthropic blog post <br> 
+                    Read until “Why not use architectural approaches” </li>
+                <li><a href="https://arxiv.org/pdf/2309.08600" target="_blank">Sparse autoencoders find highly interpretable features in language models</a> 
+                  - Cunningham et al. 2024<br> ICLR publication<br> 
+                  Read the abstract and introduction</li>
+                <li><a href="https://arxiv.org/pdf/2310.02207" target="_blank">Language Models Represent Space and Time</a> 
+                  - Gournee and Tegmark. 2024<br> ICLR publication<br> 
+                  Read the abstract and introduction</li>
+                <li><a href="https://arxiv.org/abs/2405.14860" target="_blank">Not all language model features are linear</a> 
+                  - Engels et al. 2024<br> ICLR publication<br> 
+                  Read the abstract and introduction</li>
                 <li><a href="https://openai.com/research/clip" target="_blank">CLIP: Connecting text and images</a> 
                   - OpenAI 2022<br> Blog post <br> 
                   Read until (including) Figure 2</li>
+              </ul>
+
+              Optional Readings (Not Required)
+              <ul>
+                <li><a href="https://www.pnas.org/doi/10.1073/pnas.2206625119" target="_blank">Acquisition of chess knowledge in alphazero</a> 
+                  - McGrath et al. 2023<br>PNAS publication <br></li>
+                <li><a href="https://arxiv.org/abs/2310.16410" target="_blank">Bridging the Human-AI Knowledge Gap: Concept Discovery and Transfer in AlphaZero</a> 
+                  - Schut et al. 2023<br>Preprint <br></li>
+                <li><a href="https://arxiv.org/abs/2403.19647" target="_blank">Sparse Feature Circuits: Discovering and Editing Interpretable Causal Graphs in Language Models</a> 
+                  - Marks et al. 2024<br>Preprint <br></li>
+                <li><a href="https://cdn.openai.com/papers/sparse-autoencoders.pdf" target="_blank">Scaling and evaluating sparse autoencoders</a> 
+                  - Gao et al. 2024<br> OpenAI Preprint <br></li>
+                <li><a href="https://openreview.net/forum?id=MRu3nZhoZP&referrer=%5Bthe%20profile%20of%20Gavin%20Leech%5D(%2Fprofile%3Fid%3D~Gavin_Leech1)" target="_blank">Activation addition: Steering language models without optimization</a> 
+                  - Turner et al. 2023<br> Preprint <br></li>
+                <li><a href="https://arxiv.org/pdf/2111.06206" target="_blank">Towards axiomatic, hierarchical, and symbolic explanation for deep models</a> 
+                  - Ren et al. 2021<br> Preprint <br></li>
                 <li><a href="https://openreview.net/forum?id=T6iiOqsGOh&referrer=%5Bthe%20profile%20of%20Shengbang%20Tong%5D(%2Fprofile%3Fid%3D~Shengbang_Tong1)" target="_blank">Mass-Producing Failures of Multimodal Systems with Language Models</a> 
                   - Tong et al. 2023<br> NeurIPS publication <br> 
                   Read the abstract, introduction, and section 3 until 3.2</li>
                 <li><a href="https://openreview.net/forum?id=5Ca9sSzuDp&noteId=EwGCcxaY2g" target="_blank">Interpreting CLIP's Image Representation via Text-Based Decomposition</a> 
                   - Gandelsman et al. 2024<br> ICLR publication <br> 
-                  Read the abstract and introduction</li>
-              </ul>
-
-              Optional Readings (Not Required)
-              <ul>
-                None
+                  Read the abstract and introduction</li>    
               </ul>
             </td>
           </tr>
@@ -1001,7 +1038,9 @@
 
               Optional Readings (Not Required)
               <ul>
-                None
+                <li><a href="https://openreview.net/forum?id=9PnKduzf-FT" target="_blank">Characterizing the risk of fairwashing</a> 
+                  - Aivodji et al. 2021<br> NeurIPS publication <br> 
+                  Read the abstract and the introduction</li>
               </ul>
             </td>
           </tr>
